@@ -1,0 +1,22 @@
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos de editores
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos temporales
+*.log
+*.tmp
+*.temp
+
+# Archivos de imágenes grandes (opcional, descomenta si no quieres subir imágenes)
+# images/
+# *.jpg
+# *.png
+# *.gif
