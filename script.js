@@ -5,7 +5,7 @@ function contactWhatsApp(productName) {
     const phoneNumber = '542974278736'; // CAMBIAR POR TU NÚMERO
     
     // Mensaje predefinido
-    const message = encodeURIComponent(`Hola! Me interesa el ${productName}. ¿Podrías darme más información?`);
+    const message = encodeURIComponent(`Hola! Me interesa  ${productName}. ¿Podrías decirme si tenes disponible?`);
     
     // Crear enlace de WhatsApp
     const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;

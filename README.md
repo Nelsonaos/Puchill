@@ -5,7 +5,7 @@ Página web de tienda online con diseño responsive para mostrar cuatro producto
 ## Características
 
 - ✅ Diseño responsive (adaptable para celular, tablet y desktop)
-- ✅ Cuatro productos con imágenes, descripciones y precios
+- ✅ Productos con imágenes, descripciones y precios
 - ✅ Enlaces directos a WhatsApp para consultas
 - ✅ Enlaces a Instagram
 - ✅ Diseño moderno y atractivo
