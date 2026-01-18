@@ -211,13 +211,22 @@ main {
     box-shadow: 0 15px 40px rgba(0, 0, 0, 0.25)
 }
 /* Footer */
+/* Footer */
 footer {
     background: rgba(214, 107, 45, 0.95);
     padding: 2rem 0;
     margin-top: 3rem;
     text-align: center;
+    color: #fff;
+    font-family: 'Segoe UI', sans-serif;
 }
 
+footer p {
+    margin: 0.5rem 0;
+    line-height: 1.6;
+}
+
+/* Redes sociales */
 .footer-social {
     display: flex;
     justify-content: center;
@@ -229,17 +238,49 @@ footer {
     padding: 10px 20px;
     border-radius: 25px;
     text-decoration: none;
-    color: rgb(255, 255, 255);
+    color: #fff;
     font-weight: bold;
     display: flex;
     align-items: center;
     gap: 8px;
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, background 0.3s ease;
+    background: rgba(255, 255, 255, 0.15);
 }
 
 .footer-social a:hover {
     transform: scale(1.05);
+    background: rgba(255, 255, 255, 0.25);
 }
+
+/* Separador */
+footer hr {
+    border: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    margin: 1.5rem auto;
+    width: 60%;
+}
+
+/* Créditos extra */
+.footer-extra {
+    font-size: 0.95rem;
+    color: #f0f0f0;
+    margin-top: 1rem;
+}
+
+.footer-extra a {
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    margin: 0 8px;
+    transition: color 0.3s ease;
+}
+
+.footer-extra a:hover {
+    color: #ffe0c2; /* tono cálido para hover */
+    text-decoration: underline;
+}
+
+
 
 /* Responsive Design */
 @media (max-width: 768px) {
