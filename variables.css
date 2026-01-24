@@ -1,0 +1,81 @@
+/* Variables de Color - Modifica estos valores para cambiar los colores del sitio */
+
+:root {
+    /* Colores principales */
+    --color-primary: rgba(255, 127, 80, 0.95); /* Color principal header/footer (coral) */
+    --color-primary-opacity: rgba(255, 127, 80, 0.95);
+    
+    /* Colores de texto */
+    --color-text-primary: #333; /* Texto principal del body */
+    --color-text-light: #f9f9f9; /* Texto claro (header h1) */
+    --color-text-white: #fff; /* Blanco puro */
+    --color-text-footer: #fff; /* Texto del footer */
+    --color-text-footer-light: #f0f0f0; /* Texto claro del footer */
+    
+    /* Colores de productos */
+    --color-product-title: #d6790f; /* Título del producto */
+    --color-product-description: #a85e0f; /* Descripción del producto */
+    --color-product-price: #1e6f3e; /* Precio del producto */
+    
+    /* Colores de tarjetas */
+    --color-card-background: rgba(255, 255, 255, 0.7); /* Fondo de tarjeta */
+    --color-card-background-alt: rgba(255, 255, 255, 0.85); /* Fondo alternativo */
+    --color-card-shadow: rgba(227, 107, 47, 0.95); /* Sombra de tarjeta */
+    --color-card-shadow-hover: rgba(0, 0, 0, 0.25); /* Sombra hover */
+    --color-card-shadow-light: rgba(0, 0, 0, 0.15); /* Sombra ligera */
+    
+    /* Colores de imágenes */
+    --color-image-background: #ffffff; /* Fondo de imagen */
+    --color-image-shadow: rgba(102, 126, 234, 0.3); /* Sombra de imagen */
+    --color-image-shadow-hover: rgba(118, 75, 162, 0.4); /* Sombra hover imagen */
+    
+    /* Colores de botones */
+    --color-button-whatsapp: #25D366; /* Color principal WhatsApp */
+    --color-button-whatsapp-hover: #20ba5a; /* Hover WhatsApp */
+    --color-button-whatsapp-active: #1a9c4a; /* Active WhatsApp */
+    --color-button-shadow: rgba(32, 186, 90, 0.4); /* Sombra botón */
+    --color-button-shadow-hover: rgba(32, 186, 90, 0.5); /* Sombra hover botón */
+    
+    /* Colores de redes sociales */
+    --color-instagram-1: #f09433; /* Instagram gradient color 1 */
+    --color-instagram-2: #e6683c; /* Instagram gradient color 2 */
+    --color-instagram-3: #dc2743; /* Instagram gradient color 3 */
+    --color-instagram-4: #cc2366; /* Instagram gradient color 4 */
+    --color-instagram-5: #bc1888; /* Instagram gradient color 5 */
+    
+    --color-linkedin: #0077B5; /* Color principal LinkedIn */
+    --color-linkedin-hover: #005582; /* Hover LinkedIn */
+    
+    --color-social-shadow: rgba(212, 205, 205, 0.3); /* Sombra redes sociales */
+    
+    /* Colores del footer */
+    --color-footer-social-bg: rgba(255, 255, 255, 0.15); /* Fondo botones sociales footer */
+    --color-footer-social-bg-hover: rgba(255, 255, 255, 0.25); /* Hover botones sociales footer */
+    --color-footer-hr: rgba(255, 255, 255, 0.4); /* Color del separador */
+    --color-footer-link-hover: #ffe0c2; /* Hover de enlaces del footer */
+    
+    /* Sombras generales */
+    --shadow-light: rgba(0, 0, 0, 0.1); /* Sombra ligera general */
+    --shadow-medium: rgba(0, 0, 0, 0.15); /* Sombra media */
+    --shadow-dark: rgba(0, 0, 0, 0.25); /* Sombra oscura */
+    
+    /* Fuentes */
+    --font-primary: 'Dancing Script', cursive; /* Fuente principal del sitio */
+    --font-description: 'Dancing Script', cursive; /* Fuente para descripciones */
+    --font-price: 'Dancing Script', cursive; /* Fuente para precios */
+    --font-footer: 'Segoe UI', sans-serif; /* Fuente del footer */
+    
+    /* Tamaños de fuente */
+    --font-size-elegant: 24px; /* Tamaño texto elegante */
+    --font-size-header: 2rem; /* Tamaño header h1 */
+    --font-size-product-title: 1.6rem; /* Tamaño título producto */
+    --font-size-product-description: 1.1rem; /* Tamaño descripción producto */
+    --font-size-product-price: 2rem; /* Tamaño precio producto */
+    --font-size-button: 1rem; /* Tamaño botón */
+    --font-size-footer-extra: 0.95rem; /* Tamaño footer extra */
+    --font-size-social-icon: 1.5rem; /* Tamaño iconos sociales */
+    
+    /* Pesos de fuente */
+    --font-weight-bold: 700; /* Peso bold (títulos, texto elegante) */
+    --font-weight-normal: normal; /* Peso normal */
+}
