@@ -171,6 +171,12 @@ main {
     color: var(--color-product-price);
 }
 
+/* Cuando no hay stock, el texto va en rojo en lugar del precio */
+.product-price.product-price--sin-stock {
+    color: #c0392b;
+    font-weight: bold;
+}
+
 /* Botón con efecto premium */
 .btn-contact {
     background: linear-gradient(135deg, var(--color-button-whatsapp), var(--color-button-whatsapp-hover));
